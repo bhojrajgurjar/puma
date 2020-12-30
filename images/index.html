@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA INDIA</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/305cb08958.js"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .head{
+            background-color: rgb(27, 27, 27);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 30px;
+            margin-bottom: 0px;
+            position: fixed; margin-top: -50px !important;
+            width: 100%;
+            
+            
+        }
+        .head-1st{
+            display: flex;
+            cursor: pointer;
+        }
+        
+        .head-1st div{
+            padding-left: 60px;
+            padding-top: 20px;
+            word-spacing: 40px;
+            font-weight: 900 !important;
+            
+        }
+        .head-2nd{
+            display: flex;
+            margin-top: 10px;
+        }
+        .head-2nd span{
+            border: 0.2px solid rgb(88, 87, 87);
+            height: 30px;
+            padding-top: 7px;
+            padding-left: 20px;
+            margin-right: 30px;
+
+        }
+        .head-2nd span i{
+            cursor: pointer;
+        }
+        .head-2nd input{
+            width: 150px;
+            height: 20px;
+            margin-right: 40px;
+            background-color: transparent;
+           border: none;
+        }
+        .head-2nd div{
+            word-spacing: 15px;
+            margin-right: 70px;
+            cursor: pointer;
+        }
+        .section1st{
+            margin-top: 50px;
+            padding-top: 0px !important;
+            height: 500px;
+            background-image: url(cover\ image.png);
+            background-size: cover;
+        }
+        
+        .section1st div{
+            margin-top: 0px;
+           color: white;
+            background-size: cover;
+            height: auto;
+            
+        }
+        .section1st div div{
+            text-align: end;
+            padding-top:160px ;
+
+            margin-right: 130px !important;
+        }
+        .section1st div div h1{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 50px;
+        }
+        .on{
+            margin-right: 115px;
+            margin-bottom: 0px;
+            font-size: 20px;
+        }
+        .plus{
+            font-size: 20px;
+            margin-top: 0px;
+            margin-right: -65px;
+
+        }
+        .section1st div div div{
+            margin-top: -160px;
+            margin-right: -0px !important;
+            word-spacing: 20px;
+        }
+        .section1st div div div button{
+            height: 40px !important;
+            font-weight: 900;
+            border: none;
+            color: rgb(48, 48, 46);
+            cursor: pointer;
+        }
+        .section1st div div div button:hover{
+            background-color: wheat;
+        }
+        .section2nd{
+            display: flex;
+            flex-direction: column;
+        }
+        .section2nd-head{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            padding-top: 1%;
+            padding-bottom: 2%;
+
+        }
+        .section2nd-img{
+            display: flex;
+            margin-left: 2%;
+             margin-right: 2%;
+             cursor: pointer;
+
+        }
+         .section2nd-img div{
+             display: flex;
+             flex-direction: column;
+            
+
+         }
+         .section2nd-img div img{
+             width: 100% !important;
+             height: 80%;
+         }
+         .section2nd-img div button{
+             width: 70%;
+             height:auto;
+             padding: 3%;
+             margin-right: 4%;
+             margin-left: 17%;
+             margin-top: 10%;
+             margin-bottom: 10%;
+             font-weight: 900;
+             background-color: white;
+             border: solid thin;
+             cursor: pointer;
+
+
+
+         }
+         .section2nd-img div button:hover{
+             background-color: black;
+             color: white;
+         }
+         .section2nd-div1st button{
+             width: 90% !important;
+             height:20% !important;
+             padding: 3% !important;
+             margin-right: 90% !important;
+             margin-left: 15px !important;
+             cursor: pointer;
+
+
+
+         }
+         .section2nd-div2nd button{
+             width: 80% !important;
+             padding: 2%;
+             margin-left: 40px !important;
+         }
+         
+         .section3rd div{
+            height: 350px !important;
+            width: 100%;
+             background-image: url(coverlast.jpg);
+             margin-top: 40px !important;
+             
+
+         }
+         .section3rd p{
+             padding-left: 7% !important;
+             padding-top: 10% !important;
+             font-size: x-large;
+             font-weight: 100 !important;
+             
+            
+        }
+        .section3rd button{
+            margin-left: 17%; 
+            padding: 5px !important;
+            cursor: pointer;
+            font-weight: 900;
+            height: 40px;
+            width: auto;
+            border: solid thin;
+            background-color: rgb(248, 238, 239);
+
+        }
+        .section3rd button:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .cover2nd{
+            height: 500px;
+            background-image: url(2ndcover.jpg);
+            background-size: cover;
+        }
+        .cover2nd div{
+            text-align: end;
+            color: white;
+            padding-top: 10%;
+            padding-right: 7%;
+        }
+        .cover2nd div h1{
+            font-size: 300% !important;
+             font-weight: 900;
+             margin-bottom: 0px;
+        }
+        .cover2nd div p{
+            font-size: 120%;
+            padding-right: 9% !important;
+            margin-top: 5px !important;
+            padding-top: -20px !important;
+        }
+        .nd{
+            padding-top: -8% !important;
+           margin-top: -10% !important;
+           padding-right: 15% !important;
+
+        }
+        .nd button{
+            background-color: black;
+            color: white;
+            border: solid thin white;
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+            padding: 10px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        .nd button:hover{
+            background-color: white;
+            color:black;
+        }
+        .cover3rd{
+            height: 500px;
+            background-image: url(3rdcover.jpg);
+            background-size: cover;
+            margin-top: 0%;
+            
+        }
+        .cover3rd div{
+            padding-left:8%;
+            padding-top: 10%;
+           
+        }
+        .cover3rd div h1{
+            font-weight: 900;
+            font-size: 300%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+        .h12{
+            padding-left:11%;
+        }
+        .cover3rd div p{
+            padding-left:7%;
+            font-size: 130%;
+            font-weight: 100 !important;
+            margin-top: 0%;
+        }
+       .div2nd{
+            margin-top: -10% !important;
+            padding-left:20% !important;
+        }
+        .div2nd button{
+            height: 40px!important;
+            width: 170px;
+            background-color: black;
+            font-weight: 900;
+            color: white;
+            border: solid thin;
+            cursor: pointer;
+
+        }
+        .div2nd button:hover{
+            background-color: rgb(80, 79, 79);
+        }
+        .cover4th{
+            height: 500px;
+            background-image: url(5thcover.jpg);
+            background-size: cover;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .cover4th div h1{
+            padding-top: 15%;
+            padding-left: 7%;
+            color: white;
+            font-size: 310%;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+        .cover4th div div{
+            padding-left: 12%;
+           
+        }
+        .cover4th div div button{
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+            border: solid thin white;
+            background-color: rgb(7, 20, 6);
+            color: white;
+            font-weight: 900;
+            padding-right: 5px;
+            padding-left: 5px;
+            cursor: pointer;
+        }
+        .cover4th div div button:hover{
+            background-color: white;
+            color:  rgb(7, 20, 6);
+        }
+        .cover5th{
+            margin-top: -20px !important;
+            padding-top: 0px;
+            margin-bottom: 60px;
+            height: 500px;
+            background-image: url(7thcover.jpg);
+            background-size: cover;
+            color: white;
+        }
+        .cover5th div h1{
+            padding-left: 7%;
+            padding-top: 13%;
+            font-size: 300%;
+            font-weight:900;
+            margin-bottom: 0%;
+        }
+        .cover5th div p{
+            padding-left: 14%;
+            padding-top: 0%;
+            font-size: larger;
+        }
+        .cover5th div div{
+            padding-left: 14%;
+            
+        }
+        .cover5th div div button{
+            height: 45px;
+            width: 125px;
+            margin-right: 10px;
+            font-weight: 900;
+            border: solid thin;
+            color: rgb(48, 47, 47);
+            cursor: pointer;
+
+        }
+        .cover5th div div button:hover{
+            background-color:rgb(218, 216, 216);
+        }
+        .last-section{
+            background-color:rgb(27, 27, 27);
+            display: flex;
+            justify-content: space-between;
+            height: 400px !important;
+            color: whitesmoke;
+            font-size: larger;
+            padding-left: 3%;
+            padding-top: 5%;
+        }
+        
+        
+        .new{
+            display: flex !important;
+            justify-content: space-between;
+            width: 150%;
+            
+
+        }
+        .new div{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .hl{
+            border-top: 3px solid rgb(250, 242, 242);
+            
+            width: 190%;
+           
+            margin-bottom: 20%;
+        }
+        .new div small{
+            padding-bottom: 10%;
+            color: rgb(90, 87, 87);
+            font-weight: 100;
+            cursor: pointer;
+        }
+        .new div small:hover{
+            color: white;
+        }
+        .about{
+            margin-left: -100px !important;
+            margin-right: 0px;
+        }
+        .more{
+            padding-right: 10% !important;
+        }
+        .hl2{
+            border-top: 3px solid rgb(250, 242, 242);
+            
+            width: 137%;
+           
+            margin-bottom: 20%;
+        }
+        .media{
+           display: flex !important;
+           filter: grayscale(100%) !important;
+           
+        }
+        .media img{
+            padding-right: 8%;
+            
+            cursor: pointer;
+           
+        }
+        .media img :hover{
+           filter: none;
+        }
+      .space{
+            display:flex;
+            margin-top: 20%;
+        }
+        .hl3{
+            margin-top: 40%;
+
+            border-top: 0.2px solid  rgb(143, 124, 124);;
+        }
+        .space img{
+            border:solid thin rgb(134, 133, 131);
+            border-radius: 10px;
+            margin-left: -10%;
+            cursor: pointer;
+
+        }
+        .space p{
+            font-size: smaller;
+            margin-left: 9%;
+            cursor: pointer;
+            border-bottom: 2px solid rgb(161, 156, 156);
+        }
+        .footer{
+           background-color: rgb(24, 23, 23);
+           border-top: 1px solid rgb(131, 130, 130);
+           
+          
+        }
+        .footer div {
+            display: flex;
+            margin-right:20% ;
+        }
+        .footer div button{
+            display: flex;
+            margin-left: 7%;
+           margin-top: 3%;
+            margin-bottom: 3%;
+            height: 50px;
+            width: 200px;
+            background-color: rgb(27, 27, 27);
+            color: white;
+            border: 0.1px solid rgb(100, 100, 100);
+            padding-top: 4px;
+            cursor: pointer;
+        }
+        .footer div button p{
+            padding-right: 55px;
+            padding-left: 10px;
+            font-weight: 700;
+            
+        }
+        .footer div button img{
+            padding-top: 8px;
+        }
+        .for-p{
+            padding-left: 100px;
+            padding-top: 35px;
+            color: white;
+            font-weight: 100 !important;
+        }
+        .footer div small{
+            margin-left: 100px;
+            margin-top: 50px;
+            color: rgb(131, 131, 131);
+            font-weight: 100 !important;
+            font-size: medium;
+            cursor: pointer;
+            
+        }
+        .footer div small:hover{
+            color: white;
+        }
+        @media screen and (max-width: 1110px){
+            .head-1st div{
+                display: none !important;
+            }
+            .head-2nd span{
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="head-1st">
+            <img src="logo.PNG" alt="">
+            <div>
+                <a>Women</a>
+                <a>Men</a>
+                <a>Kids</a>
+                <a>Select</a>
+                <a>Collections</a>
+                <a>Sale</a>
+            </div>
+        </div>
+        <div class="head-2nd">
+            <span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type=" image" src="search.PNG" type="text" placeholder="SEARCH PUMA.COM" name="SEARCH ">
+            </span>
+            
+            <div>
+                <img src="heart.PNG" alt="">
+                <img src="trally.PNG" alt="">
+                <img src="contact.PNG" alt="">
+
+            </div>
+        </div>
+
+    </header>
+    <section class="section1st">
+        <div>
+            <div>
+                <h1>FLAT 40% OFF</h1>
+                <p class="on">ON FOOTWEAR<br> </p><p class="plus">+ EXCITING OFFERS ON APPAREL AND ACCESSORIES</p>
+                <div>
+                    <button>SHOP MEN</button>
+                    <button>SHOP WOMEN</button>
+                    <button>SHOP KIDS'</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2nd">
+        <div class="section2nd-head">
+            <h1>DEALS IN SPOTLIGHT</h1>
+        </div>
+        <div>
+            <div class="section2nd-img">
+                <div>
+                    <img src="first-img.jpg" alt="">
+                <button>SHOP STYLES AT 50% OFF</button>
+                </div>
+                <div>
+                    <img src="second-img.jpg" alt="">
+                    <button>SHOP STYLES AT 60% OFF</button>
+                </div>
+                <div>
+                    <img src="third-img.jpg" alt="">
+                <button>SHOP THE SEASON'S BEST SELLER</button>
+                </div>
+                <div>
+                    <img src="fourth-img.jpg" alt="">
+                <button>SHOP THE SEASON'S HOT PICKS</button>
+                </div>
+                
+               
+                
+                
+            </div>
+        </div>
+        <div style="margin-top: 5%;">
+            <div class="section2nd-img">
+                <div class="section2nd-div1st">
+                    <img src="secondfirst.jpg" alt="">
+                <button>SHOP FIRST TIME ON DISCOUNT</button>
+                </div>
+                <div class="section2nd-div2nd">
+                   
+                    <img src="secondsecond.jpg" alt="">
+                    <button>SHOP WITH FRIENDLY DEALS</button>
+                </div>
+                <div>
+                    <img src="secondthird.jpg" alt="">
+                    <button>BUY 1 GET 1</button>
+                </div>
+                <div>
+                    <img src="secondfourth.jpg" alt="">
+                    <button>LAST FEW PIECES LEFT</button>
+                </div>
+              
+               
+              
+               
+            </div>
+        </div>
+    </section>
+    <section class="section3rd">
+        <div>
+            <p>Participate in the contest on Instagram and you <br> could win a <b>PUMA voucher worth Rs.15000</b></p>  
+            <button>KNOW MORE</button>
+        </div>
+    </section>
+    <section class="section4th">
+        <div class="cover2nd">
+            <div>
+                <h1>SNUGGLE IS REAL</h1>
+                <p>SHOP WINTER LAYERING</p>
+            </div>
+            <div class="nd">
+                <button>SHOP MEN</button>
+                <bUtton>SHOP WOMEN</BUtton>
+            </div>
+
+
+        </div>
+        <div class="cover3rd">
+            <div>
+                <h1>RUNNING. TRAINING.</h1>
+                <h1 class="h12">FITNESS.</h1>
+                <p>Shop the new one8 fitness collection</p>
+            </div>
+            <div class="div2nd" ><button>SHOP COLLECTION</button></div>
+        </div>
+        
+
+
+    </section>
+    <section class="section2nd">
+        <div class="section2nd-head">
+            <h1>FRESH KICKS</h1>
+        </div>
+        <div>
+            <div class="section2nd-img">
+                <div>
+                    <img src="1stshoe.jpg" alt="">
+                <button>SHOP MILE RIDER SUNNY</button>
+                </div>
+                <div class="section2nd-div1st">
+                    <img src="2ndshoe.jpg" alt="">
+                <button>SHOP THE HUNDREDS RS-2K</button>
+                </div>
+                <div class="section2nd-div1st">
+                    <img src="3rdshoe.jpg" alt="">
+                    <button>SHOP BMW MSS MILE RIDER</button>
+                </div>
+                <div  class="section2nd-div2nd">
+                    <img src="4thshoe.jpg" alt="">
+                <button>SHOP RALPH SAMPSON VON <br> DUTCH</button>
+                </div>
+                
+                
+               
+                
+            </div>
+        </div>
+       
+
+    </section>
+    <SECtion class="section5th">
+        <DIV class="cover4th">
+            <DIV>
+                <H1>LAY DOWN THE MAT</H1>
+                <div>
+                    <button>SHOP YOGA MATS</button>
+                    <button>SHOP YOGA COLLECTION</button>
+                </div>
+                
+            </DIV>
+        </DIV>
+        
+        <div class="cover5th">
+            <div>
+                <h1>BORN TO PROVOKE</h1>
+                <p>SAMYUKTHA IN PROVOKE XT</p>
+                <div>
+                    <button>SHOP NOW</button>
+                <button>KNOW MORE</button>
+                </div>
+                
+            </div>
+        </div>
+    </SECtion>
+    <iframe id="pixlee_widget_iframea1b9b6b4-785b-6137-c99a-f524ed4f9f16" width="auto" frameborder="0" title="Customer Photo gallery powered by Pixlee" allowfullscreen="" data-widget-id="2106281" src="https://photos.pixlee.co/widget?widget_id=2106281&amp;api_key=ySWccITl1I4L66al8tWm&amp;parent_url=https%3A%2F%2Fin.puma.com%2Fin%2Fen%2Fhome" scrolling="no" style="height: 362px; border: none; overflow: hidden; width:100%;"></iframe>
+
+    <section class="last-section">
+        <div>
+            <div>
+                <h4>Support</h4>
+            </div>
+            <div class=hl></div>
+            <div class="new">
+                <div>
+                    <small>Contact us</small>
+                    <small>FAQ</small>
+                    <small>My Account</small>
+                    <small>Track Order</small>
+    
+    
+                </div>
+                <div>
+                    <small>Return Policy</small>
+                    <small>Privacy Policy</small>
+                    <small>Terms & Conditions</small>
+                </div>
+            </div>
+           
+
+        </div>
+        <div class="about">
+            <div>
+                <h4>About PUMA</h4>
+            </div>
+            <div class=hl></div>
+            <div class="new">
+                <div>
+                    <small>Company</small>
+                    <small>Corporate News</small>
+                    <small>Press Center</small>
+    
+    
+                </div>
+                <div>
+                    <small>Investors</small>
+                    <small>Sustainbility</small>
+                    <small>Careers</small>
+                    <small>Store Finder</small>
+                </div>
+            </div>
+           
+
+        </div>
+        <div class="more">
+            <div>
+                <div>
+                    <h4>More Inspiration</h4>
+                </div>
+                <div class=hl2></div>
+                <div >
+                    <div class="media">
+                        <img src="fb.PNG" alt="">
+                        <img src="twtr.PNG" alt="">
+                        <img src="insta.PNG" alt="">
+                        <img src="p.PNG" alt="">
+                        <img src="yutb.PNG" alt="">
+    
+                    </div>
+                    <div class="hl3"></div>
+                    <div class="space">
+                        <img src="logo-trac.PNG" alt="">
+                        <p>TRAIN WITH THE FASTEST</p>
+                    </div>
+                </div>
+                
+            </div>
+           
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <button><img src="indialogo.PNG" alt=""><p>ENGLISH</p> <img src="dropdown.PNG" alt=""></button>
+        <p class="for-p">© PUMA SE, 2020. All Rights Reserved        </p>
+        <small>Imprint & Legal Data</small>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
